@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Programming for Medical Studies</title>
+    <link rel="stylesheet" href="./codestyle.css">
+    <link rel="stylesheet" href="./master.css">
+</head>
+<body>
+    <h1>ProgrammingTutorialGenerator</h1>
+    <h2>By using this library, you can generate a programming quiz like this!!</h2>
+    <br>
+    Write the code that tests if the input number is prime or not.
+    <script type="python">
+n=《Recieve input as integer.｜int(input())》
+if(《Does "n" equal to 0 or 1?｜n==0 or n==1、n==1 or n==0》):
+    print(《Convert "n" to string｜str(n)》 + " is not a prime.")
+    exit()
+for i in 《from 2 to n-1｜range(2,n)》:
+        if(《Is "n" divisible by i?｜n%i==0、0==n%i》):
+            print(《Convert "n" to string｜str(n)》 + " is not a prime.")
+            exit()
+print(《Convert "n" to string｜str(n)》 + " is a prime!")
+    </script>
+    <br>
+    <script type="C">
+#include<stdio.h>
+int main(void){
+  int n, i;
+  《Recieve integer to "n"｜scanf("%d", &n)》;
+  if(《Does "n" equal to 0 or 1?｜n==0 || n==1、n==1 || n==0》){
+    printf(《"○○ is not a prime."｜"%d is not a prime.", n》);
+    return 0;
+  }
+  for (《change i from 2 to n-1｜i=2;i<n;i++、i=2;i<n;++i、i=2;i<=n-1;i++、i=2;i<=n-1;++i》){
+    if(《Is "n" divisible by i?｜n%i==0、0==n%i》){
+      printf(《"○○ is not a prime."｜"%d is not a prime.", n》);
+      return 0;
+    }
+  }
+  printf(《"○○ is a prime."｜"%d is a prime.", n》);
+}
+     </script>
+    <script src="./codeTutorial.js"></script>
+</body>
+</html>

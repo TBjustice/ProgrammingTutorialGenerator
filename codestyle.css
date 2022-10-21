@@ -1,0 +1,16 @@
+div.code{
+    border: 1px solid black;
+    background: #efefef;
+    font-family: Consolas, 'Courier New', monospace;
+    padding-left: 5px;
+}
+div.code input{
+    outline: none;
+}
+div.result{
+    border: 1px solid #333;
+    background: black;
+    color: white;
+    font-family: Consolas, 'Courier New', monospace;
+    padding: 10px;
+}
